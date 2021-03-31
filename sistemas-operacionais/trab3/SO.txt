@@ -1,0 +1,24 @@
+da página 127 à 145
+
+ANDRÉ: {
+  01. Funções básicas (suave)
+  02. Critérios de escalonamento (vários tópicos tranquilos)
+  03. Escalonamentos Não Preemptivos e Preemptivos (médio)
+  04. Escalonamento First-In-First-Out (FIFO) (mais complicado)
+  05. Escalonamento Shortest-Job-First (SJF) (menos complicado)
+}
+
+VINICIUS: {
+  06. Escalonamento Cooperativo (menos complicado)
+  07. Escalonamento Circular (mais complicado)
+  08. Escalonamento por Prioridades (mais complicado ainda)
+  09. Escalonamento Circular com Prioridades (menos complicado)
+}
+
+DIEGO (EU): {
+  10. Escalonamento por Múltiplas Filas (tranquilo)
+  11. Escalonamento por Múltiplas Filas com Realimentação (menos tranquilo)
+  12. Política de Escalonamento em Sistemas de Tempo Compartilhado (complicadinho)
+  13. Política de Escalonamento em Sistemas de Tempo Real (mais suave)
+}
+

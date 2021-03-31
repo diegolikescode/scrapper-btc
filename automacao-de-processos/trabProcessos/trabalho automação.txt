@@ -1,0 +1,18 @@
+
+1. Montar um processo sem automação.
+x  * 8 Tarefas de usuários (com seus respectivos formulários e atores) ou de serviço
+x  * 3 gateways exclusivos
+x  * 1 gateway paralelo ou inclusivo
+x  * 2 eventos de bordas
+x  * 1 evento intermediário de fluxo
+x  * 1 tabela de decisão
+
+2. A partir do processo desenhado precisarei criar a automação e mostrar quais foram os ganhos dessa automação
+
+3. Fazer um vídeo mostrando o processo não automatizado e mostrar as vantagens que a automação trouxe.
+  * mostrar os testes
+  * desenho exibindo as regras para cada desvio do fluxo
+  * regras da tabela de decisão
+
+-> Desenhar, documentar e apresentar um modelos de processo de negócio de uma empresa escolhida a sua escolha.
+-> O trabalho consiste em, a partir dos processos já desenhados, criar uma automação dos mesmos,mostrando como a automação trará o ganhoimportante para o alcance da melhoria necessária com vistas ao alcance da(s) estratégia(s)

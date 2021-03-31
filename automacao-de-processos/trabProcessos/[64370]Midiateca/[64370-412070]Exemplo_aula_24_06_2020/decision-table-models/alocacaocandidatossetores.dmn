@@ -1,0 +1,128 @@
+<definitions xmlns="http://www.omg.org/spec/DMN/20180521/MODEL/" id="definition_06858546-b66f-11ea-88a5-0242ac120003" name="Alocação de Candidatos para Setores" namespace="http://www.flowable.org/dmn">
+  <decision id="alocacaocandidatossetores" name="Alocação de Candidatos para Setores">
+    <decisionTable id="decisionTable_06858546-b66f-11ea-88a5-0242ac120003" hitPolicy="FIRST">
+      <input label="Linguagem C">
+        <inputExpression id="inputExpression_1" typeRef="string">
+          <text>linguagemc</text>
+        </inputExpression>
+        <inputValues>
+          <text>"Sim","Não"</text>
+        </inputValues>
+      </input>
+      <input label="Linguagem Java">
+        <inputExpression id="inputExpression_4" typeRef="string">
+          <text>linguagemjava</text>
+        </inputExpression>
+        <inputValues>
+          <text>"Sim","Não"</text>
+        </inputValues>
+      </input>
+      <input label="Nota da prova">
+        <inputExpression id="inputExpression_6" typeRef="number">
+          <text>notaprova</text>
+        </inputExpression>
+      </input>
+      <input label="Fluente em idioma">
+        <inputExpression id="inputExpression_5" typeRef="string">
+          <text>fluenteidioma</text>
+        </inputExpression>
+        <inputValues>
+          <text>"Inglês","Alemão","Espanhol","Mandarim"</text>
+        </inputValues>
+      </input>
+      <input label="Linguagem PHP">
+        <inputExpression id="inputExpression_3" typeRef="string">
+          <text>linguagemphp</text>
+        </inputExpression>
+        <inputValues>
+          <text>"Sim","Não"</text>
+        </inputValues>
+      </input>
+      <output id="outputExpression_2" label="Alocação" name="alocacao" typeRef="string">
+        <outputValues>
+          <text>"A","B","C","D"</text>
+        </outputValues>
+      </output>
+      <rule>
+        <inputEntry id="inputEntry_1_1">
+          <text><![CDATA[== "Sim"]]></text>
+        </inputEntry>
+        <inputEntry id="inputEntry_4_1">
+          <text><![CDATA[== "Sim"]]></text>
+        </inputEntry>
+        <inputEntry id="inputEntry_6_1">
+          <text><![CDATA[> 8]]></text>
+        </inputEntry>
+        <inputEntry id="inputEntry_5_1">
+          <text><![CDATA[== "Inglês"]]></text>
+        </inputEntry>
+        <inputEntry id="inputEntry_3_1">
+          <text><![CDATA[-]]></text>
+        </inputEntry>
+        <outputEntry id="outputEntry_2_1">
+          <text><![CDATA["A"]]></text>
+        </outputEntry>
+      </rule>
+      <rule>
+        <inputEntry id="inputEntry_1_2">
+          <text><![CDATA[-]]></text>
+        </inputEntry>
+        <inputEntry id="inputEntry_4_2">
+          <text><![CDATA[== "Sim"]]></text>
+        </inputEntry>
+        <inputEntry id="inputEntry_6_2">
+          <text><![CDATA[-]]></text>
+        </inputEntry>
+        <inputEntry id="inputEntry_5_2">
+          <text><![CDATA[== "Alemão"]]></text>
+        </inputEntry>
+        <inputEntry id="inputEntry_3_2">
+          <text><![CDATA[== "Sim"]]></text>
+        </inputEntry>
+        <outputEntry id="outputEntry_2_2">
+          <text><![CDATA["C"]]></text>
+        </outputEntry>
+      </rule>
+      <rule>
+        <inputEntry id="inputEntry_1_3">
+          <text><![CDATA[== "Sim"]]></text>
+        </inputEntry>
+        <inputEntry id="inputEntry_4_3">
+          <text><![CDATA[-]]></text>
+        </inputEntry>
+        <inputEntry id="inputEntry_6_3">
+          <text><![CDATA[> 8]]></text>
+        </inputEntry>
+        <inputEntry id="inputEntry_5_3">
+          <text><![CDATA[== "Mandarim"]]></text>
+        </inputEntry>
+        <inputEntry id="inputEntry_3_3">
+          <text><![CDATA[-]]></text>
+        </inputEntry>
+        <outputEntry id="outputEntry_2_3">
+          <text><![CDATA["B"]]></text>
+        </outputEntry>
+      </rule>
+      <rule>
+        <inputEntry id="inputEntry_1_4">
+          <text><![CDATA[-]]></text>
+        </inputEntry>
+        <inputEntry id="inputEntry_4_4">
+          <text><![CDATA[-]]></text>
+        </inputEntry>
+        <inputEntry id="inputEntry_6_4">
+          <text><![CDATA[-]]></text>
+        </inputEntry>
+        <inputEntry id="inputEntry_5_4">
+          <text><![CDATA[-]]></text>
+        </inputEntry>
+        <inputEntry id="inputEntry_3_4">
+          <text><![CDATA[-]]></text>
+        </inputEntry>
+        <outputEntry id="outputEntry_2_4">
+          <text><![CDATA["D"]]></text>
+        </outputEntry>
+      </rule>
+    </decisionTable>
+  </decision>
+</definitions>

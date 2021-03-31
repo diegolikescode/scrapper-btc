@@ -1,0 +1,128 @@
+create table en_clinica (
+	cod_clinica serial not null,
+	dsc_endereco_clinica char(50) not null,
+	primary key (cod_clinica)
+);
+
+create table en_local (
+	cod_local serial not null,
+	desc_endereco_local char(50) not null,
+	primary key (cod_local)
+);
+
+create table en_remedios (
+	cod_remedio serial not null,
+	dsc_remedio char(100),
+	nme_remedio char(100) not null,
+	primary key (cod_remedio)
+);
+
+create table en_especialidade (
+	cod_especialidade serial not null,
+	nme_especialidade char(100) not null,
+	dsc_especialidade char(100),
+	primary key (cod_especialidade)
+);
+
+create table en_convenio_utilizacao (
+	cod_clinica serial not null,
+	cod_especialidade serial not null,
+	cod_local serial not null,
+	foreign key (cod_clinica) references en_clinica,
+	foreign key (cod_especialidade) references en_especialidade,
+	foreign key (cod_local) references en_local,
+	primary key (cod_clinica, cod_especialidade, cod_local)
+);
+
+create table en_medico (
+	cod_medico serial not null,
+	cod_clinica serial not null,
+	cod_especialidade serial not null,
+	nme_medico char(50) not null,
+	dsc_endereco_medico char(50) not null,
+	salario_medico float not null,
+	foreign key (cod_clinica) references en_clinica,
+	foreign key (cod_especialidade) references en_especialidade,
+	primary key (cod_medico, cod_clinica)
+);
+
+create table en_paciente (
+	cod_paciente serial not null,
+	nme_paciente char(50) not null,
+	sexo_paciente char(15) not null,
+	dta_nascimento_paciente date not null,
+	dsc_endereco_paciente char(50),
+	primary key (cod_paciente)
+);
+
+create table en_receita (
+	cod_medico serial not null,
+	cod_medico_clinica serial not null,
+	cod_clinica serial not null,
+	cod_especialidade serial not null,
+	cod_local serial not null,
+	cod_paciente serial not null,
+	cod_remedio serial not null,
+	foreign key (cod_medico, cod_medico_clinica) references en_medico,
+	foreign key (cod_clinica) references en_clinica,
+	foreign key (cod_especialidade) references en_especialidade,
+	foreign key (cod_local) references en_local,
+	foreign key (cod_paciente) references en_paciente,
+	foreign key (cod_remedio) references en_remedios,
+	primary key (cod_medico, cod_medico_clinica, cod_clinica, cod_especialidade, 
+	cod_local, cod_paciente, cod_remedio)
+);
+
+create table en_consulta (
+	cod_medico serial not null,
+	cod_medico_clinica serial not null,
+	cod_clinica serial not null,
+	cod_especialidade serial not null,
+	cod_local serial not null,
+	cod_paciente serial not null,
+	dta_consulta date not null,
+	valor_consulta float not null,
+	foreign key (cod_medico, cod_medico_clinica) references en_medico,
+	foreign key (cod_clinica) references en_clinica,
+	foreign key (cod_especialidade) references en_especialidade,
+	foreign key (cod_local) references en_local,
+	foreign key (cod_paciente) references en_paciente,
+	primary key (cod_medico, cod_medico_clinica, cod_clinica, cod_especialidade, cod_local, cod_paciente)
+);
+
+insert into en_clinica (cod_clinica, dsc_endereco_clinica) values ('1', 'rua dos saruels');
+insert into en_clinica (cod_clinica, dsc_endereco_clinica) values ('2', 'rua dos josues');
+
+insert into en_especialidade (cod_especialidade, nme_especialidade, dsc_especialidade)
+values ('1', 'clinico geral', 'ele sabe um pouco de tudo');
+insert into en_especialidade (cod_especialidade, nme_especialidade, dsc_especialidade)
+values ('2', 'cardiologista', 'cuida do coracao s2');
+insert into en_especialidade (cod_especialidade, nme_especialidade, dsc_especialidade)
+values ('3', 'pediatra', 'cuida das criancinhas');
+
+insert into en_medico (cod_medico, cod_clinica, cod_especialidade, nme_medico,
+dsc_endereco_medico, salario_medico);
+values ('1', '1', '1', 'Shroud', 'mora lá naquela rua', 5420.39);
+
+insert into en_local (cod_local, desc_endereco_local) values ('1', 'lá perto da padaria');
+insert into en_local (cod_local, desc_endereco_local) values ('2', 'lá na ponte');
+insert into en_local (cod_local, desc_endereco_local) values ('3', 'rua dos lamentados');
+
+insert into en_convenio_utilizacao (cod_clinica, cod_especialidade, cod_local) values ('1', '1', '1');
+insert into en_convenio_utilizacao (cod_clinica, cod_especialidade, cod_local) values ('1', '3', '1');
+insert into en_convenio_utilizacao (cod_clinica, cod_especialidade, cod_local) values ('1', '2', '1');
+
+insert into en_paciente (cod_paciente, nme_paciente, sexo_paciente, dta_nascimento_paciente,
+dsc_endereco_paciente) values ('1', 'senhor jesus de nazaré', 'masculino', '1999-01-08', 'mora longe');
+
+insert into en_consulta (cod_medico, cod_medico_clinica, cod_clinica, cod_especialidade,
+cod_local, cod_paciente, dta_consulta, valor_consulta)
+values ('1', '1', '1', '1', '1', '1', '1999-01-08', 200.50);
+
+insert into en_remedios (cod_remedio, dsc_remedio, nme_remedio) values ('1', 'dor de cabeca', 'dipirona');
+
+insert into en_receita (cod_medico, cod_medico_clinica, cod_clinica, cod_especialidade, cod_local,
+cod_paciente, cod_remedio) values ('1', '1', '1', '1', '1', '1', '1');
+
+
+

@@ -1,0 +1,32 @@
+<html>
+  <head>
+    <link href="style/default.css" rel="styleSheet" />
+    <link href="style/relatorio.css" rel="styleSheet"/>
+  </head>
+
+  <body>
+    <nav>
+      <a href="./Produto.html" id="prodBut">Produtos</a>
+      <a href="./Relatorio.html" id="relBut">Relatorios</a>
+      <a href="./Login.html" id="sairBut">Sair</a>
+    </nav>
+    <table>
+      <thead>
+        <tr>
+          <th>Usuario</th>
+          <th>Data de Solicitada</th>
+          <th>Produto</th>
+          <th>Quantidade</th>
+          <th>Valor total (unidade)</th>
+        </tr>
+      </thead>
+      <tbody id="relatorio"></tbody>
+    </table>
+    <div id="total"></div>
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"
+    ></script>
+    <script type="text/javascript" src="Relatorio.js"></script>
+  </body>
+</html>

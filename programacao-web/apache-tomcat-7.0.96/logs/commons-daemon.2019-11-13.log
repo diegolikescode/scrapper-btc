@@ -1,0 +1,25 @@
+[2019-11-13 15:05:38] [info]  [ 2044] Apache Commons Daemon procrun (1.2.0.0 64-bit) started.
+[2019-11-13 15:05:38] [info]  [ 2044] Installing service 'Tomcat7' name 'Apache Tomcat 7.0 Tomcat7'.
+[2019-11-13 15:05:39] [info]  [ 2044] Service 'Tomcat7' installed.
+[2019-11-13 15:05:39] [info]  [ 2044] Apache Commons Daemon procrun finished.
+[2019-11-13 18:01:49] [info]  [11192] Apache Commons Daemon procrun (1.2.0.0 64-bit) started.
+[2019-11-13 18:01:49] [info]  [11192] Installing service 'Tomcat7' name 'Apache Tomcat 7.0 Tomcat7'.
+[2019-11-13 18:01:49] [error] [11192] O serviço especificado já existe.
+[2019-11-13 18:01:49] [error] [11192] Failed installing service 'Tomcat7'.
+[2019-11-13 18:01:49] [error] [11192] O serviço especificado já existe.
+[2019-11-13 18:01:49] [error] [11192] Apache Commons Daemon procrun failed with exit value: 8 (failed to install service).
+[2019-11-13 18:01:49] [error] [11192] O serviço especificado já existe.
+[2019-11-13 18:01:56] [info]  [11308] Apache Commons Daemon procrun (1.2.0.0 64-bit) started.
+[2019-11-13 18:01:56] [info]  [11308] Installing service 'Tomcat7' name 'Apache Tomcat 7.0 Tomcat7'.
+[2019-11-13 18:01:56] [error] [11308] O serviço especificado já existe.
+[2019-11-13 18:01:56] [error] [11308] Failed installing service 'Tomcat7'.
+[2019-11-13 18:01:56] [error] [11308] O serviço especificado já existe.
+[2019-11-13 18:01:56] [error] [11308] Apache Commons Daemon procrun failed with exit value: 8 (failed to install service).
+[2019-11-13 18:01:56] [error] [11308] O serviço especificado já existe.
+[2019-11-13 18:28:58] [info]  [ 3464] Apache Commons Daemon procrun (1.2.0.0 64-bit) started.
+[2019-11-13 18:28:58] [info]  [ 3464] Installing service 'Tomcat7' name 'Apache Tomcat 7.0 Tomcat7'.
+[2019-11-13 18:28:58] [error] [ 3464] O serviço especificado já existe.
+[2019-11-13 18:28:58] [error] [ 3464] Failed installing service 'Tomcat7'.
+[2019-11-13 18:28:58] [error] [ 3464] O serviço especificado já existe.
+[2019-11-13 18:28:58] [error] [ 3464] Apache Commons Daemon procrun failed with exit value: 8 (failed to install service).
+[2019-11-13 18:28:58] [error] [ 3464] O serviço especificado já existe.

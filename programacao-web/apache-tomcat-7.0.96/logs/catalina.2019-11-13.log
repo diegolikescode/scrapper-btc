@@ -1,0 +1,729 @@
+nov 13, 2019 4:06:24 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Server version:        Apache Tomcat/7.0.96
+nov 13, 2019 4:06:24 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Server built:          Jul 24 2019 13:00:10 UTC
+nov 13, 2019 4:06:24 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Server number:         7.0.96.0
+nov 13, 2019 4:06:24 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: OS Name:               Windows 10
+nov 13, 2019 4:06:24 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: OS Version:            10.0
+nov 13, 2019 4:06:24 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Architecture:          amd64
+nov 13, 2019 4:06:24 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Java Home:             C:\Program Files\Java\jdk1.8.0_221\jre
+nov 13, 2019 4:06:24 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: JVM Version:           1.8.0_221-b11
+nov 13, 2019 4:06:24 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: JVM Vendor:            Oracle Corporation
+nov 13, 2019 4:06:24 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: CATALINA_BASE:         C:\Users\diego\Google Drive\Faculdade\Web\apache-tomcat-7.0.96
+nov 13, 2019 4:06:24 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: CATALINA_HOME:         C:\Users\diego\Google Drive\Faculdade\Web\apache-tomcat-7.0.96
+nov 13, 2019 4:06:24 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Command line argument: -Dcatalina.home=C:\Users\diego\Google Drive\Faculdade\Web\apache-tomcat-7.0.96
+nov 13, 2019 4:06:24 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Command line argument: -Dcatalina.base=C:\Users\diego\Google Drive\Faculdade\Web\apache-tomcat-7.0.96
+nov 13, 2019 4:06:24 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Command line argument: -Dignore.endorsed.dirs=C:\Users\diego\Google Drive\Faculdade\Web\apache-tomcat-7.0.96\endorsed
+nov 13, 2019 4:06:24 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Command line argument: -Djava.io.tmpdir=C:\Users\diego\Google Drive\Faculdade\Web\apache-tomcat-7.0.96\temp
+nov 13, 2019 4:06:24 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+nov 13, 2019 4:06:24 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Command line argument: -Djava.util.logging.config.file=C:\Users\diego\Google Drive\Faculdade\Web\apache-tomcat-7.0.96\conf\logging.properties
+nov 13, 2019 4:06:24 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Command line argument: exit
+nov 13, 2019 4:06:24 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Command line argument: abort
+nov 13, 2019 4:06:24 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Command line argument: -Xms128m
+nov 13, 2019 4:06:24 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Command line argument: -Xmx256m
+nov 13, 2019 4:06:24 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFORMAÇÕES: Loaded APR based Apache Tomcat Native library 1.2.23 using APR version 1.7.0.
+nov 13, 2019 4:06:24 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFORMAÇÕES: APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+nov 13, 2019 4:06:24 PM org.apache.catalina.core.AprLifecycleListener initializeSSL
+INFORMAÇÕES: OpenSSL successfully initialized (OpenSSL 1.1.1c  28 May 2019)
+nov 13, 2019 4:06:26 PM org.apache.coyote.AbstractProtocol init
+INFORMAÇÕES: Initializing ProtocolHandler ["http-apr-9009"]
+nov 13, 2019 4:06:26 PM org.apache.coyote.AbstractProtocol init
+INFORMAÇÕES: Initializing ProtocolHandler ["ajp-apr-8009"]
+nov 13, 2019 4:06:26 PM org.apache.catalina.startup.Catalina load
+INFORMAÇÕES: Initialization processed in 6564 ms
+nov 13, 2019 4:06:26 PM org.apache.catalina.core.StandardService startInternal
+INFORMAÇÕES: Starting service Catalina
+nov 13, 2019 4:06:26 PM org.apache.catalina.core.StandardEngine startInternal
+INFORMAÇÕES: Starting Servlet Engine: Apache Tomcat/7.0.96
+nov 13, 2019 4:06:26 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deploying web application directory C:\Users\diego\Google Drive\Faculdade\Web\apache-tomcat-7.0.96\webapps\docs
+nov 13, 2019 4:06:28 PM org.apache.catalina.util.SessionIdGeneratorBase createSecureRandom
+ADVERTÊNCIA: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [246] milliseconds.
+nov 13, 2019 4:06:28 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deployment of web application directory C:\Users\diego\Google Drive\Faculdade\Web\apache-tomcat-7.0.96\webapps\docs has finished in 2,139 ms
+nov 13, 2019 4:06:28 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deploying web application directory C:\Users\diego\Google Drive\Faculdade\Web\apache-tomcat-7.0.96\webapps\examples
+nov 13, 2019 4:06:32 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deployment of web application directory C:\Users\diego\Google Drive\Faculdade\Web\apache-tomcat-7.0.96\webapps\examples has finished in 3,538 ms
+nov 13, 2019 4:06:32 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deploying web application directory C:\Users\diego\Google Drive\Faculdade\Web\apache-tomcat-7.0.96\webapps\host-manager
+nov 13, 2019 4:06:32 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deployment of web application directory C:\Users\diego\Google Drive\Faculdade\Web\apache-tomcat-7.0.96\webapps\host-manager has finished in 266 ms
+nov 13, 2019 4:06:32 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deploying web application directory C:\Users\diego\Google Drive\Faculdade\Web\apache-tomcat-7.0.96\webapps\manager
+nov 13, 2019 4:06:32 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deployment of web application directory C:\Users\diego\Google Drive\Faculdade\Web\apache-tomcat-7.0.96\webapps\manager has finished in 72 ms
+nov 13, 2019 4:06:32 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deploying web application directory C:\Users\diego\Google Drive\Faculdade\Web\apache-tomcat-7.0.96\webapps\ROOT
+nov 13, 2019 4:06:32 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deployment of web application directory C:\Users\diego\Google Drive\Faculdade\Web\apache-tomcat-7.0.96\webapps\ROOT has finished in 69 ms
+nov 13, 2019 4:06:32 PM org.apache.coyote.AbstractProtocol start
+INFORMAÇÕES: Starting ProtocolHandler ["http-apr-9009"]
+nov 13, 2019 4:06:32 PM org.apache.coyote.AbstractProtocol start
+INFORMAÇÕES: Starting ProtocolHandler ["ajp-apr-8009"]
+nov 13, 2019 4:06:32 PM org.apache.catalina.startup.Catalina start
+INFORMAÇÕES: Server startup in 6410 ms
+nov 13, 2019 4:21:59 PM org.apache.catalina.realm.LockOutRealm filterLockedAccounts
+ADVERTÊNCIA: An attempt was made to authenticate the locked user "tomcat"
+nov 13, 2019 5:02:05 PM org.apache.coyote.AbstractProtocol pause
+INFORMAÇÕES: Pausing ProtocolHandler ["http-apr-9009"]
+nov 13, 2019 5:02:05 PM org.apache.coyote.AbstractProtocol pause
+INFORMAÇÕES: Pausing ProtocolHandler ["ajp-apr-8009"]
+nov 13, 2019 5:02:05 PM org.apache.catalina.core.StandardService stopInternal
+INFORMAÇÕES: Stopping service Catalina
+nov 13, 2019 5:02:05 PM org.apache.coyote.AbstractProtocol stop
+INFORMAÇÕES: Stopping ProtocolHandler ["http-apr-9009"]
+nov 13, 2019 5:02:05 PM org.apache.coyote.AbstractProtocol stop
+INFORMAÇÕES: Stopping ProtocolHandler ["ajp-apr-8009"]
+nov 13, 2019 5:02:05 PM org.apache.coyote.AbstractProtocol destroy
+INFORMAÇÕES: Destroying ProtocolHandler ["http-apr-9009"]
+nov 13, 2019 5:02:05 PM org.apache.coyote.AbstractProtocol destroy
+INFORMAÇÕES: Destroying ProtocolHandler ["ajp-apr-8009"]
+nov 13, 2019 5:02:25 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Server version:        Apache Tomcat/7.0.96
+nov 13, 2019 5:02:25 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Server built:          Jul 24 2019 13:00:10 UTC
+nov 13, 2019 5:02:25 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Server number:         7.0.96.0
+nov 13, 2019 5:02:25 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: OS Name:               Windows 10
+nov 13, 2019 5:02:25 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: OS Version:            10.0
+nov 13, 2019 5:02:25 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Architecture:          amd64
+nov 13, 2019 5:02:25 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Java Home:             C:\Program Files\Java\jdk1.8.0_221\jre
+nov 13, 2019 5:02:25 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: JVM Version:           1.8.0_221-b11
+nov 13, 2019 5:02:25 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: JVM Vendor:            Oracle Corporation
+nov 13, 2019 5:02:25 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: CATALINA_BASE:         C:\Users\diego\Google Drive\Faculdade\Web\apache-tomcat-7.0.96
+nov 13, 2019 5:02:25 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: CATALINA_HOME:         C:\Users\diego\Google Drive\Faculdade\Web\apache-tomcat-7.0.96
+nov 13, 2019 5:02:25 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Command line argument: -Dcatalina.home=C:\Users\diego\Google Drive\Faculdade\Web\apache-tomcat-7.0.96
+nov 13, 2019 5:02:25 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Command line argument: -Dcatalina.base=C:\Users\diego\Google Drive\Faculdade\Web\apache-tomcat-7.0.96
+nov 13, 2019 5:02:25 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Command line argument: -Dignore.endorsed.dirs=C:\Users\diego\Google Drive\Faculdade\Web\apache-tomcat-7.0.96\endorsed
+nov 13, 2019 5:02:25 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Command line argument: -Djava.io.tmpdir=C:\Users\diego\Google Drive\Faculdade\Web\apache-tomcat-7.0.96\temp
+nov 13, 2019 5:02:25 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+nov 13, 2019 5:02:25 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Command line argument: -Djava.util.logging.config.file=C:\Users\diego\Google Drive\Faculdade\Web\apache-tomcat-7.0.96\conf\logging.properties
+nov 13, 2019 5:02:25 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Command line argument: exit
+nov 13, 2019 5:02:25 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Command line argument: abort
+nov 13, 2019 5:02:25 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Command line argument: -Xms128m
+nov 13, 2019 5:02:25 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Command line argument: -Xmx256m
+nov 13, 2019 5:02:25 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFORMAÇÕES: Loaded APR based Apache Tomcat Native library 1.2.23 using APR version 1.7.0.
+nov 13, 2019 5:02:25 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFORMAÇÕES: APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+nov 13, 2019 5:02:25 PM org.apache.catalina.core.AprLifecycleListener initializeSSL
+INFORMAÇÕES: OpenSSL successfully initialized (OpenSSL 1.1.1c  28 May 2019)
+nov 13, 2019 5:02:25 PM org.apache.coyote.AbstractProtocol init
+INFORMAÇÕES: Initializing ProtocolHandler ["http-apr-9009"]
+nov 13, 2019 5:02:25 PM org.apache.coyote.AbstractProtocol init
+INFORMAÇÕES: Initializing ProtocolHandler ["ajp-apr-8009"]
+nov 13, 2019 5:02:25 PM org.apache.catalina.startup.Catalina load
+INFORMAÇÕES: Initialization processed in 715 ms
+nov 13, 2019 5:02:25 PM org.apache.catalina.core.StandardService startInternal
+INFORMAÇÕES: Starting service Catalina
+nov 13, 2019 5:02:25 PM org.apache.catalina.core.StandardEngine startInternal
+INFORMAÇÕES: Starting Servlet Engine: Apache Tomcat/7.0.96
+nov 13, 2019 5:02:25 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deploying web application directory C:\Users\diego\Google Drive\Faculdade\Web\apache-tomcat-7.0.96\webapps\docs
+nov 13, 2019 5:02:26 PM org.apache.catalina.util.SessionIdGeneratorBase createSecureRandom
+ADVERTÊNCIA: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [175] milliseconds.
+nov 13, 2019 5:02:26 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deployment of web application directory C:\Users\diego\Google Drive\Faculdade\Web\apache-tomcat-7.0.96\webapps\docs has finished in 620 ms
+nov 13, 2019 5:02:26 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deploying web application directory C:\Users\diego\Google Drive\Faculdade\Web\apache-tomcat-7.0.96\webapps\examples
+nov 13, 2019 5:02:27 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deployment of web application directory C:\Users\diego\Google Drive\Faculdade\Web\apache-tomcat-7.0.96\webapps\examples has finished in 1,511 ms
+nov 13, 2019 5:02:27 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deploying web application directory C:\Users\diego\Google Drive\Faculdade\Web\apache-tomcat-7.0.96\webapps\host-manager
+nov 13, 2019 5:02:27 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deployment of web application directory C:\Users\diego\Google Drive\Faculdade\Web\apache-tomcat-7.0.96\webapps\host-manager has finished in 110 ms
+nov 13, 2019 5:02:27 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deploying web application directory C:\Users\diego\Google Drive\Faculdade\Web\apache-tomcat-7.0.96\webapps\manager
+nov 13, 2019 5:02:28 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deployment of web application directory C:\Users\diego\Google Drive\Faculdade\Web\apache-tomcat-7.0.96\webapps\manager has finished in 85 ms
+nov 13, 2019 5:02:28 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deploying web application directory C:\Users\diego\Google Drive\Faculdade\Web\apache-tomcat-7.0.96\webapps\ROOT
+nov 13, 2019 5:02:28 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deployment of web application directory C:\Users\diego\Google Drive\Faculdade\Web\apache-tomcat-7.0.96\webapps\ROOT has finished in 50 ms
+nov 13, 2019 5:02:28 PM org.apache.coyote.AbstractProtocol start
+INFORMAÇÕES: Starting ProtocolHandler ["http-apr-9009"]
+nov 13, 2019 5:02:28 PM org.apache.coyote.AbstractProtocol start
+INFORMAÇÕES: Starting ProtocolHandler ["ajp-apr-8009"]
+nov 13, 2019 5:02:28 PM org.apache.catalina.startup.Catalina start
+INFORMAÇÕES: Server startup in 2489 ms
+nov 13, 2019 5:30:03 PM org.apache.coyote.AbstractProtocol pause
+INFORMAÇÕES: Pausing ProtocolHandler ["http-apr-9009"]
+nov 13, 2019 5:30:03 PM org.apache.coyote.AbstractProtocol pause
+INFORMAÇÕES: Pausing ProtocolHandler ["ajp-apr-8009"]
+nov 13, 2019 5:30:03 PM org.apache.catalina.core.StandardService stopInternal
+INFORMAÇÕES: Stopping service Catalina
+nov 13, 2019 5:30:04 PM org.apache.coyote.AbstractProtocol stop
+INFORMAÇÕES: Stopping ProtocolHandler ["http-apr-9009"]
+nov 13, 2019 5:30:04 PM org.apache.coyote.AbstractProtocol stop
+INFORMAÇÕES: Stopping ProtocolHandler ["ajp-apr-8009"]
+nov 13, 2019 5:30:04 PM org.apache.coyote.AbstractProtocol destroy
+INFORMAÇÕES: Destroying ProtocolHandler ["http-apr-9009"]
+nov 13, 2019 5:30:04 PM org.apache.coyote.AbstractProtocol destroy
+INFORMAÇÕES: Destroying ProtocolHandler ["ajp-apr-8009"]
+nov 13, 2019 6:47:03 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Server version:        Apache Tomcat/7.0.96
+nov 13, 2019 6:47:03 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Server built:          Jul 24 2019 13:00:10 UTC
+nov 13, 2019 6:47:03 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Server number:         7.0.96.0
+nov 13, 2019 6:47:03 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: OS Name:               Windows 10
+nov 13, 2019 6:47:03 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: OS Version:            10.0
+nov 13, 2019 6:47:03 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Architecture:          amd64
+nov 13, 2019 6:47:03 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Java Home:             C:\Program Files\Java\jdk1.8.0_221\jre
+nov 13, 2019 6:47:03 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: JVM Version:           1.8.0_221-b11
+nov 13, 2019 6:47:03 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: JVM Vendor:            Oracle Corporation
+nov 13, 2019 6:47:03 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: CATALINA_BASE:         C:\Users\diego\Google Drive\Faculdade\Web\apache-tomcat-7.0.96
+nov 13, 2019 6:47:03 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: CATALINA_HOME:         C:\Users\diego\Google Drive\Faculdade\Web\apache-tomcat-7.0.96
+nov 13, 2019 6:47:03 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Command line argument: -Dcatalina.home=C:\Users\diego\Google Drive\Faculdade\Web\apache-tomcat-7.0.96
+nov 13, 2019 6:47:03 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Command line argument: -Dcatalina.base=C:\Users\diego\Google Drive\Faculdade\Web\apache-tomcat-7.0.96
+nov 13, 2019 6:47:03 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Command line argument: -Dignore.endorsed.dirs=C:\Users\diego\Google Drive\Faculdade\Web\apache-tomcat-7.0.96\endorsed
+nov 13, 2019 6:47:03 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Command line argument: -Djava.io.tmpdir=C:\Users\diego\Google Drive\Faculdade\Web\apache-tomcat-7.0.96\temp
+nov 13, 2019 6:47:03 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+nov 13, 2019 6:47:03 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Command line argument: -Djava.util.logging.config.file=C:\Users\diego\Google Drive\Faculdade\Web\apache-tomcat-7.0.96\conf\logging.properties
+nov 13, 2019 6:47:03 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Command line argument: exit
+nov 13, 2019 6:47:03 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Command line argument: abort
+nov 13, 2019 6:47:03 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Command line argument: -Xms128m
+nov 13, 2019 6:47:03 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMAÇÕES: Command line argument: -Xmx256m
+nov 13, 2019 6:47:03 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFORMAÇÕES: Loaded APR based Apache Tomcat Native library 1.2.23 using APR version 1.7.0.
+nov 13, 2019 6:47:03 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFORMAÇÕES: APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+nov 13, 2019 6:47:03 PM org.apache.catalina.core.AprLifecycleListener initializeSSL
+INFORMAÇÕES: OpenSSL successfully initialized (OpenSSL 1.1.1c  28 May 2019)
+nov 13, 2019 6:47:04 PM org.apache.coyote.AbstractProtocol init
+INFORMAÇÕES: Initializing ProtocolHandler ["http-apr-9009"]
+nov 13, 2019 6:47:04 PM org.apache.coyote.AbstractProtocol init
+INFORMAÇÕES: Initializing ProtocolHandler ["ajp-apr-8009"]
+nov 13, 2019 6:47:04 PM org.apache.catalina.startup.Catalina load
+INFORMAÇÕES: Initialization processed in 1615 ms
+nov 13, 2019 6:47:04 PM org.apache.catalina.core.StandardService startInternal
+INFORMAÇÕES: Starting service Catalina
+nov 13, 2019 6:47:04 PM org.apache.catalina.core.StandardEngine startInternal
+INFORMAÇÕES: Starting Servlet Engine: Apache Tomcat/7.0.96
+nov 13, 2019 6:47:04 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deploying web application directory C:\Users\diego\Google Drive\Faculdade\Web\apache-tomcat-7.0.96\webapps\docs
+nov 13, 2019 6:47:06 PM org.apache.catalina.util.SessionIdGeneratorBase createSecureRandom
+ADVERTÊNCIA: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [280] milliseconds.
+nov 13, 2019 6:47:06 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deployment of web application directory C:\Users\diego\Google Drive\Faculdade\Web\apache-tomcat-7.0.96\webapps\docs has finished in 1,537 ms
+nov 13, 2019 6:47:06 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deploying web application directory C:\Users\diego\Google Drive\Faculdade\Web\apache-tomcat-7.0.96\webapps\examples
+nov 13, 2019 6:47:08 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deployment of web application directory C:\Users\diego\Google Drive\Faculdade\Web\apache-tomcat-7.0.96\webapps\examples has finished in 2,181 ms
+nov 13, 2019 6:47:08 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deploying web application directory C:\Users\diego\Google Drive\Faculdade\Web\apache-tomcat-7.0.96\webapps\host-manager
+nov 13, 2019 6:47:08 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deployment of web application directory C:\Users\diego\Google Drive\Faculdade\Web\apache-tomcat-7.0.96\webapps\host-manager has finished in 130 ms
+nov 13, 2019 6:47:08 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deploying web application directory C:\Users\diego\Google Drive\Faculdade\Web\apache-tomcat-7.0.96\webapps\manager
+nov 13, 2019 6:47:08 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deployment of web application directory C:\Users\diego\Google Drive\Faculdade\Web\apache-tomcat-7.0.96\webapps\manager has finished in 111 ms
+nov 13, 2019 6:47:08 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deploying web application directory C:\Users\diego\Google Drive\Faculdade\Web\apache-tomcat-7.0.96\webapps\ROOT
+nov 13, 2019 6:47:08 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMAÇÕES: Deployment of web application directory C:\Users\diego\Google Drive\Faculdade\Web\apache-tomcat-7.0.96\webapps\ROOT has finished in 55 ms
+nov 13, 2019 6:47:08 PM org.apache.coyote.AbstractProtocol start
+INFORMAÇÕES: Starting ProtocolHandler ["http-apr-9009"]
+nov 13, 2019 6:47:08 PM org.apache.coyote.AbstractProtocol start
+INFORMAÇÕES: Starting ProtocolHandler ["ajp-apr-8009"]
+nov 13, 2019 6:47:08 PM org.apache.catalina.startup.Catalina start
+INFORMAÇÕES: Server startup in 4189 ms
+nov 13, 2019 6:47:08 PM org.apache.catalina.core.StandardServer await
+GRAVE: StandardServer.await: create[localhost:1]: 
+java.net.BindException: Address already in use: JVM_Bind
+	at java.net.DualStackPlainSocketImpl.bind0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketBind(DualStackPlainSocketImpl.java:106)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:190)
+	at java.net.ServerSocket.bind(ServerSocket.java:375)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at org.apache.catalina.core.StandardServer.await(StandardServer.java:444)
+	at org.apache.catalina.startup.Catalina.await(Catalina.java:799)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:745)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:294)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:428)
+
+nov 13, 2019 6:47:08 PM org.apache.coyote.AbstractProtocol pause
+INFORMAÇÕES: Pausing ProtocolHandler ["http-apr-9009"]
+nov 13, 2019 6:47:08 PM org.apache.coyote.AbstractProtocol pause
+INFORMAÇÕES: Pausing ProtocolHandler ["ajp-apr-8009"]
+nov 13, 2019 6:47:08 PM org.apache.catalina.core.StandardService stopInternal
+INFORMAÇÕES: Stopping service Catalina
+nov 13, 2019 6:47:09 PM org.apache.coyote.AbstractProtocol stop
+INFORMAÇÕES: Stopping ProtocolHandler ["http-apr-9009"]
+nov 13, 2019 6:47:09 PM org.apache.coyote.AbstractProtocol stop
+INFORMAÇÕES: Stopping ProtocolHandler ["ajp-apr-8009"]
+nov 13, 2019 6:47:09 PM org.apache.coyote.AbstractProtocol destroy
+INFORMAÇÕES: Destroying ProtocolHandler ["http-apr-9009"]
+nov 13, 2019 6:47:09 PM org.apache.coyote.AbstractProtocol destroy
+INFORMAÇÕES: Destroying ProtocolHandler ["ajp-apr-8009"]
+nov 13, 2019 6:47:50 PM org.apache.tomcat.util.digester.Digester fatalError
+GRAVE: Parse Fatal Error at line 22 column 20: O tipo de elemento "Server" deve ser seguido pelas especificações do atributo, ">" ou "/>".
+org.xml.sax.SAXParseException; systemId: file:/C:/Users/diego/Google%20Drive/Faculdade/Web/apache-tomcat-7.0.96/conf/server.xml; lineNumber: 22; columnNumber: 20; O tipo de elemento "Server" deve ser seguido pelas especificações do atributo, ">" ou "/>".
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:203)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:177)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1472)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.seekCloseOfStartTag(XMLDocumentFragmentScannerImpl.java:1394)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanStartElement(XMLDocumentFragmentScannerImpl.java:1324)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$ContentDriver.scanRootElementHook(XMLDocumentScannerImpl.java:1289)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:3132)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(XMLDocumentScannerImpl.java:852)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:602)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:505)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:842)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:771)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643)
+	at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1576)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:634)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:685)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:253)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:427)
+
+nov 13, 2019 6:47:50 PM org.apache.catalina.startup.Catalina load
+ADVERTÊNCIA: Catalina.start using conf/server.xml: O tipo de elemento "Server" deve ser seguido pelas especificações do atributo, ">" ou "/>".
+nov 13, 2019 6:47:50 PM org.apache.catalina.startup.Catalina start
+GRAVE: Cannot start server. Server instance is not configured.
+nov 13, 2019 7:00:28 PM org.apache.tomcat.util.digester.Digester fatalError
+GRAVE: Parse Fatal Error at line 22 column 20: O tipo de elemento "Server" deve ser seguido pelas especificações do atributo, ">" ou "/>".
+org.xml.sax.SAXParseException; systemId: file:/C:/Users/diego/Google%20Drive/Faculdade/Web/apache-tomcat-7.0.96/conf/server.xml; lineNumber: 22; columnNumber: 20; O tipo de elemento "Server" deve ser seguido pelas especificações do atributo, ">" ou "/>".
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:203)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:177)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1472)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.seekCloseOfStartTag(XMLDocumentFragmentScannerImpl.java:1394)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanStartElement(XMLDocumentFragmentScannerImpl.java:1324)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$ContentDriver.scanRootElementHook(XMLDocumentScannerImpl.java:1289)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:3132)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(XMLDocumentScannerImpl.java:852)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:602)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:505)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:842)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:771)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643)
+	at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1576)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:634)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:685)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:253)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:427)
+
+nov 13, 2019 7:00:28 PM org.apache.catalina.startup.Catalina load
+ADVERTÊNCIA: Catalina.start using conf/server.xml: O tipo de elemento "Server" deve ser seguido pelas especificações do atributo, ">" ou "/>".
+nov 13, 2019 7:00:28 PM org.apache.catalina.startup.Catalina start
+GRAVE: Cannot start server. Server instance is not configured.
+nov 13, 2019 7:01:25 PM org.apache.tomcat.util.digester.Digester fatalError
+GRAVE: Parse Fatal Error at line 22 column 20: O tipo de elemento "Server" deve ser seguido pelas especificações do atributo, ">" ou "/>".
+org.xml.sax.SAXParseException; systemId: file:/C:/Users/diego/Google%20Drive/Faculdade/Web/apache-tomcat-7.0.96/conf/server.xml; lineNumber: 22; columnNumber: 20; O tipo de elemento "Server" deve ser seguido pelas especificações do atributo, ">" ou "/>".
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:203)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:177)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1472)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.seekCloseOfStartTag(XMLDocumentFragmentScannerImpl.java:1394)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanStartElement(XMLDocumentFragmentScannerImpl.java:1324)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$ContentDriver.scanRootElementHook(XMLDocumentScannerImpl.java:1289)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:3132)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(XMLDocumentScannerImpl.java:852)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:602)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:505)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:842)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:771)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643)
+	at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1576)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:634)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:685)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:253)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:427)
+
+nov 13, 2019 7:01:25 PM org.apache.catalina.startup.Catalina load
+ADVERTÊNCIA: Catalina.start using conf/server.xml: O tipo de elemento "Server" deve ser seguido pelas especificações do atributo, ">" ou "/>".
+nov 13, 2019 7:01:25 PM org.apache.catalina.startup.Catalina start
+GRAVE: Cannot start server. Server instance is not configured.
+nov 13, 2019 7:02:01 PM org.apache.tomcat.util.digester.Digester fatalError
+GRAVE: Parse Fatal Error at line 22 column 20: O tipo de elemento "Server" deve ser seguido pelas especificações do atributo, ">" ou "/>".
+org.xml.sax.SAXParseException; systemId: file:/C:/Users/diego/Google%20Drive/Faculdade/Web/apache-tomcat-7.0.96/conf/server.xml; lineNumber: 22; columnNumber: 20; O tipo de elemento "Server" deve ser seguido pelas especificações do atributo, ">" ou "/>".
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:203)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:177)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1472)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.seekCloseOfStartTag(XMLDocumentFragmentScannerImpl.java:1394)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanStartElement(XMLDocumentFragmentScannerImpl.java:1324)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$ContentDriver.scanRootElementHook(XMLDocumentScannerImpl.java:1289)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:3132)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(XMLDocumentScannerImpl.java:852)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:602)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:505)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:842)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:771)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643)
+	at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1576)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:634)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:685)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:253)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:427)
+
+nov 13, 2019 7:02:01 PM org.apache.catalina.startup.Catalina load
+ADVERTÊNCIA: Catalina.start using conf/server.xml: O tipo de elemento "Server" deve ser seguido pelas especificações do atributo, ">" ou "/>".
+nov 13, 2019 7:02:01 PM org.apache.catalina.startup.Catalina start
+GRAVE: Cannot start server. Server instance is not configured.
+nov 13, 2019 7:02:12 PM org.apache.tomcat.util.digester.Digester fatalError
+GRAVE: Parse Fatal Error at line 22 column 20: O tipo de elemento "Server" deve ser seguido pelas especificações do atributo, ">" ou "/>".
+org.xml.sax.SAXParseException; systemId: file:/C:/Users/diego/Google%20Drive/Faculdade/Web/apache-tomcat-7.0.96/conf/server.xml; lineNumber: 22; columnNumber: 20; O tipo de elemento "Server" deve ser seguido pelas especificações do atributo, ">" ou "/>".
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:203)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:177)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1472)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.seekCloseOfStartTag(XMLDocumentFragmentScannerImpl.java:1394)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanStartElement(XMLDocumentFragmentScannerImpl.java:1324)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$ContentDriver.scanRootElementHook(XMLDocumentScannerImpl.java:1289)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:3132)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(XMLDocumentScannerImpl.java:852)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:602)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:505)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:842)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:771)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643)
+	at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1576)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:634)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:685)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:253)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:427)
+
+nov 13, 2019 7:02:12 PM org.apache.catalina.startup.Catalina load
+ADVERTÊNCIA: Catalina.start using conf/server.xml: O tipo de elemento "Server" deve ser seguido pelas especificações do atributo, ">" ou "/>".
+nov 13, 2019 7:02:12 PM org.apache.catalina.startup.Catalina start
+GRAVE: Cannot start server. Server instance is not configured.
+nov 13, 2019 7:05:44 PM org.apache.tomcat.util.digester.Digester fatalError
+GRAVE: Parse Fatal Error at line 22 column 20: O tipo de elemento "Server" deve ser seguido pelas especificações do atributo, ">" ou "/>".
+org.xml.sax.SAXParseException; systemId: file:/C:/Users/diego/Google%20Drive/Faculdade/Web/apache-tomcat-7.0.96/conf/server.xml; lineNumber: 22; columnNumber: 20; O tipo de elemento "Server" deve ser seguido pelas especificações do atributo, ">" ou "/>".
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:203)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:177)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1472)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.seekCloseOfStartTag(XMLDocumentFragmentScannerImpl.java:1394)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanStartElement(XMLDocumentFragmentScannerImpl.java:1324)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$ContentDriver.scanRootElementHook(XMLDocumentScannerImpl.java:1289)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:3132)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(XMLDocumentScannerImpl.java:852)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:602)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:505)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:842)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:771)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643)
+	at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1576)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:634)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:685)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:253)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:427)
+
+nov 13, 2019 7:05:44 PM org.apache.catalina.startup.Catalina load
+ADVERTÊNCIA: Catalina.start using conf/server.xml: O tipo de elemento "Server" deve ser seguido pelas especificações do atributo, ">" ou "/>".
+nov 13, 2019 7:05:44 PM org.apache.catalina.startup.Catalina start
+GRAVE: Cannot start server. Server instance is not configured.
+nov 13, 2019 6:06:06 PM org.apache.tomcat.util.digester.Digester fatalError
+GRAVE: Parse Fatal Error at line 22 column 20: O tipo de elemento "Server" deve ser seguido pelas especificações do atributo, ">" ou "/>".
+org.xml.sax.SAXParseException; systemId: file:/C:/Users/diego/Google%20Drive/Faculdade/Web/apache-tomcat-7.0.96/conf/server.xml; lineNumber: 22; columnNumber: 20; O tipo de elemento "Server" deve ser seguido pelas especificações do atributo, ">" ou "/>".
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(Unknown Source)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.seekCloseOfStartTag(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanStartElement(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$ContentDriver.scanRootElementHook(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(Unknown Source)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+	at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1576)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:634)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:685)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:253)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:427)
+
+nov 13, 2019 6:06:06 PM org.apache.catalina.startup.Catalina load
+ADVERTÊNCIA: Catalina.start using conf/server.xml: O tipo de elemento "Server" deve ser seguido pelas especificações do atributo, ">" ou "/>".
+nov 13, 2019 6:06:06 PM org.apache.catalina.startup.Catalina start
+GRAVE: Cannot start server. Server instance is not configured.
+nov 13, 2019 7:06:41 PM org.apache.tomcat.util.digester.Digester fatalError
+GRAVE: Parse Fatal Error at line 22 column 20: O tipo de elemento "Server" deve ser seguido pelas especificações do atributo, ">" ou "/>".
+org.xml.sax.SAXParseException; systemId: file:/C:/Users/diego/Google%20Drive/Faculdade/Web/apache-tomcat-7.0.96/conf/server.xml; lineNumber: 22; columnNumber: 20; O tipo de elemento "Server" deve ser seguido pelas especificações do atributo, ">" ou "/>".
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:203)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:177)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1472)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.seekCloseOfStartTag(XMLDocumentFragmentScannerImpl.java:1394)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanStartElement(XMLDocumentFragmentScannerImpl.java:1324)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$ContentDriver.scanRootElementHook(XMLDocumentScannerImpl.java:1289)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:3132)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(XMLDocumentScannerImpl.java:852)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:602)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:505)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:842)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:771)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643)
+	at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1576)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:634)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:685)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:253)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:427)
+
+nov 13, 2019 7:06:41 PM org.apache.catalina.startup.Catalina load
+ADVERTÊNCIA: Catalina.start using conf/server.xml: O tipo de elemento "Server" deve ser seguido pelas especificações do atributo, ">" ou "/>".
+nov 13, 2019 7:06:41 PM org.apache.catalina.startup.Catalina start
+GRAVE: Cannot start server. Server instance is not configured.
+nov 13, 2019 7:07:28 PM org.apache.tomcat.util.digester.Digester fatalError
+GRAVE: Parse Fatal Error at line 22 column 20: O tipo de elemento "Server" deve ser seguido pelas especificações do atributo, ">" ou "/>".
+org.xml.sax.SAXParseException; systemId: file:/C:/Users/diego/Google%20Drive/Faculdade/Web/apache-tomcat-7.0.96/conf/server.xml; lineNumber: 22; columnNumber: 20; O tipo de elemento "Server" deve ser seguido pelas especificações do atributo, ">" ou "/>".
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:203)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:177)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1472)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.seekCloseOfStartTag(XMLDocumentFragmentScannerImpl.java:1394)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanStartElement(XMLDocumentFragmentScannerImpl.java:1324)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$ContentDriver.scanRootElementHook(XMLDocumentScannerImpl.java:1289)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:3132)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(XMLDocumentScannerImpl.java:852)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:602)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:505)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:842)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:771)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643)
+	at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1576)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:634)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:685)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:253)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:427)
+
+nov 13, 2019 7:07:28 PM org.apache.catalina.startup.Catalina load
+ADVERTÊNCIA: Catalina.start using conf/server.xml: O tipo de elemento "Server" deve ser seguido pelas especificações do atributo, ">" ou "/>".
+nov 13, 2019 7:07:28 PM org.apache.catalina.startup.Catalina start
+GRAVE: Cannot start server. Server instance is not configured.
+nov 13, 2019 7:13:29 PM org.apache.tomcat.util.digester.Digester fatalError
+GRAVE: Parse Fatal Error at line 22 column 20: O tipo de elemento "Server" deve ser seguido pelas especificações do atributo, ">" ou "/>".
+org.xml.sax.SAXParseException; systemId: file:/C:/Users/diego/Google%20Drive/Faculdade/Web/apache-tomcat-7.0.96/conf/server.xml; lineNumber: 22; columnNumber: 20; O tipo de elemento "Server" deve ser seguido pelas especificações do atributo, ">" ou "/>".
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:203)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:177)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1472)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.seekCloseOfStartTag(XMLDocumentFragmentScannerImpl.java:1394)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanStartElement(XMLDocumentFragmentScannerImpl.java:1324)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$ContentDriver.scanRootElementHook(XMLDocumentScannerImpl.java:1289)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:3132)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(XMLDocumentScannerImpl.java:852)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:602)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:505)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:842)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:771)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643)
+	at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1576)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:634)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:685)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:253)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:427)
+
+nov 13, 2019 7:13:29 PM org.apache.catalina.startup.Catalina load
+ADVERTÊNCIA: Catalina.start using conf/server.xml: O tipo de elemento "Server" deve ser seguido pelas especificações do atributo, ">" ou "/>".
+nov 13, 2019 7:13:29 PM org.apache.catalina.startup.Catalina start
+GRAVE: Cannot start server. Server instance is not configured.
+nov 13, 2019 7:28:41 PM org.apache.tomcat.util.digester.Digester fatalError
+GRAVE: Parse Fatal Error at line 22 column 20: O tipo de elemento "Server" deve ser seguido pelas especificações do atributo, ">" ou "/>".
+org.xml.sax.SAXParseException; systemId: file:/C:/Users/diego/Google%20Drive/Faculdade/Web/apache-tomcat-7.0.96/conf/server.xml; lineNumber: 22; columnNumber: 20; O tipo de elemento "Server" deve ser seguido pelas especificações do atributo, ">" ou "/>".
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:203)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:177)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1472)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.seekCloseOfStartTag(XMLDocumentFragmentScannerImpl.java:1394)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanStartElement(XMLDocumentFragmentScannerImpl.java:1324)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$ContentDriver.scanRootElementHook(XMLDocumentScannerImpl.java:1289)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:3132)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(XMLDocumentScannerImpl.java:852)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:602)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:505)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:842)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:771)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643)
+	at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1576)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:634)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:685)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:253)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:427)
+
+nov 13, 2019 7:28:41 PM org.apache.catalina.startup.Catalina load
+ADVERTÊNCIA: Catalina.start using conf/server.xml: O tipo de elemento "Server" deve ser seguido pelas especificações do atributo, ">" ou "/>".
+nov 13, 2019 7:28:41 PM org.apache.catalina.startup.Catalina start
+GRAVE: Cannot start server. Server instance is not configured.
+nov 13, 2019 11:29:40 PM org.apache.tomcat.util.digester.Digester fatalError
+GRAVE: Parse Fatal Error at line 22 column 20: O tipo de elemento "Server" deve ser seguido pelas especificações do atributo, ">" ou "/>".
+org.xml.sax.SAXParseException; systemId: file:/C:/Users/diego/Google%20Drive/Faculdade/Web/apache-tomcat-7.0.96/conf/server.xml; lineNumber: 22; columnNumber: 20; O tipo de elemento "Server" deve ser seguido pelas especificações do atributo, ">" ou "/>".
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:203)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:177)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1472)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.seekCloseOfStartTag(XMLDocumentFragmentScannerImpl.java:1394)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanStartElement(XMLDocumentFragmentScannerImpl.java:1324)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$ContentDriver.scanRootElementHook(XMLDocumentScannerImpl.java:1289)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:3132)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(XMLDocumentScannerImpl.java:852)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:602)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:505)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:842)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:771)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643)
+	at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1576)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:634)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:685)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:253)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:427)
+
+nov 13, 2019 11:29:41 PM org.apache.catalina.startup.Catalina load
+ADVERTÊNCIA: Catalina.start using conf/server.xml: O tipo de elemento "Server" deve ser seguido pelas especificações do atributo, ">" ou "/>".
+nov 13, 2019 11:29:41 PM org.apache.catalina.startup.Catalina start
+GRAVE: Cannot start server. Server instance is not configured.

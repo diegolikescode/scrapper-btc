@@ -1,0 +1,37 @@
+<html>
+  <head>
+    <link href="style/produto.css" rel="styleSheet" />
+    <link href="style/default.css" rel="styleSheet" />
+  </head>
+
+  <body>
+    <nav>
+      <a href="./Produto.html" id="prodBut">Produtos</a>
+      <a href="./Relatorio.html" id="relBut">Relatorios</a>
+      <a href="./Login.html" id="logBut">Sair</a>
+    </nav>
+    <table>
+      <thead>
+        <tr>
+          <th>Produtos</th>
+          <th>Imagem</th>
+          <th>Medida</th>
+          <th>Preço</th>
+          <th>
+            Quantidade <br />
+            disponivel
+          </th>
+          <th>Solicitar</th>
+        </tr>
+      </thead>
+      <tbody id="tabela"></tbody>
+    </table>
+    <button onclick="salvar()" class="btn" id="butoSalva">Confirmar Solicitação</button>
+    <button onclick="cancelar()" class="btn" id="butoCancela">Cancelar</button>
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"
+    ></script>
+    <script type="text/javascript" src="Produto.js"></script>
+  </body>
+</html>

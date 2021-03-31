@@ -1,0 +1,83 @@
+table {
+  border: 5px;
+  border-color: transparent;
+  border-style: solid;
+  border-radius: 20px;
+  position: absolute;
+  top: 80px;
+  left: 20px;
+  background-color: #44475a;
+  text-align: center;
+  min-width: 800px;
+}
+
+td {
+  color: #ff79c6;
+}
+
+th {
+  color: #50fa7b;
+}
+
+a {
+  color: #bd93f9;
+  position: absolute;
+  top: 20px;
+  text-decoration-line: unset;
+}
+
+#prodbut {
+  position: absolute;
+  top: 50px;
+  left: 30px;
+}
+
+#butoSalva {
+  position: absolute;
+  top: 45px;
+  left: 265px;
+  color: #50fa7b;
+}
+
+#butoCancela {
+  position: absolute;
+  top: 45px;
+  left: 650px;
+}
+
+#relbut {
+  position: absolute;
+  top: 50px;
+  left: 130px;
+}
+
+#logbut {
+  position: absolute;
+  top: 50px;
+  left: 760px;
+}
+
+input {
+  background-color: transparent;
+  border: white;
+  border-style: solid;
+}
+
+.img {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+}
+
+.btn {
+  height: 30px;
+  border-style: solid;
+  border-color: transparent;
+  background-color: transparent;
+  color: #bd93f9;
+  font-size: 16px;
+}
+
+a.links {
+  display: none;
+}

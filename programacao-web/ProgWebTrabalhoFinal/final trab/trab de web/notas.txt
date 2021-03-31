@@ -1,0 +1,15 @@
+A FAZER{
+	login{
+		TUDO FEITO!
+	}
+	Registrar{
+		FEITO!
+	}
+	Produto{
+		A FAZER
+	}
+	Relatorio{
+		A FAZER
+	}
+	REVISAR NO FINAL.
+}

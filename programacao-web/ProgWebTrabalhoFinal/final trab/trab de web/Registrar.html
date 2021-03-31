@@ -1,0 +1,169 @@
+<html>
+  <head>
+    <link href="style/default.css" rel="styleSheet" />
+    <link href="style/registrar.css" rel="styleSheet" />
+  </head>
+
+  <body>
+    <div id="txtRegistro">
+      <p></p>
+    </div>
+
+    <p class="p1">
+      Já tem conta? Pode logar <a href="Login.html">por aqui.</a>
+    </p>
+    <div class="container">
+      <label class="label"
+        >Digite seu nome: <span class="symbol-required">*</span></label
+      >
+      <input required type="text" class="inp" id="nome" placeholder="Nome" />
+      <br />
+      <label class="label"
+        >Selecione seu sexo: <span class="symbol-required">*</span></label
+      >
+      <select required id="sexo" class="inp">
+        <option value="" disabled selected>Selecione o seu sexo</option>
+        <option value="Masculino">masculino</option>
+        <option value="Feminino">feminino</option>
+        <option value="indefinido">indefinido</option>
+      </select>
+      <br />
+      <label class="label"
+        >Data de nascimento: <span class="symbol-required">*</span></label
+      >
+      <input required class="data" type="datetime-local" id="dataNasc" />
+      <br />
+      <label class="label"
+        >Digite sua idade: <span class="symbol-required">*</span></label
+      >
+      <input
+        class="inp"
+        required
+        type="text"
+        id="idade"
+        placeholder="Idade"
+        maxlength="3"
+      />
+      <br />
+      <label class="label"
+        >Digite seu CEP: <span class="symbol-required">*</span></label
+      >
+      <input
+        required
+        type="text"
+        class="inp"
+        id="cep"
+        placeholder="CEP"
+        maxlength="9"
+      />
+      <br />
+      <label class="label">Endereço:</label>
+      <br />
+      <input
+        required
+        class="endereco"
+        type="text"
+        id="cidade"
+        placeholder="Cidade"
+      /><br />
+      <input
+        class="inp"
+        required
+        class="endereco"
+        type="text"
+        id="bairro"
+        placeholder="Bairro"
+      /><br />
+      <input
+        class="inp"
+        required
+        class="endereco"
+        type="text"
+        id="logradouro"
+        placeholder="Logradouro"
+      /><br />
+
+      <select required class="endereco" id="uf">
+        <option value="" disabled selected>UF</option>
+        <option value="AC">Acre</option>
+        <option value="AL">Alagoas</option>
+        <option value="AP">Amapá</option>
+        <option value="AM">Amazonas</option>
+        <option value="BA">Bahia</option>
+        <option value="CE">Ceará</option>
+        <option value="DF">Distrito Federal</option>
+        <option value="ES">Espirito Santo</option>
+        <option value="GO">Goiás</option>
+        <option value="MA">Maranhão</option>
+        <option value="MS">Mato Grosso do Sul</option>
+        <option value="MT">Mato Grosso</option>
+        <option value="MG">Minas Gerais</option>
+        <option value="PA">Pará</option>
+        <option value="PB">Paraíba</option>
+        <option value="PR">Paraná</option>
+        <option value="PE">Pernambuco</option>
+        <option value="PI">Piauí</option>
+        <option value="RJ">Rio de Janeiro</option>
+        <option value="RN">Rio Grande do Norte</option>
+        <option value="RS">Rio Grande do Sul</option>
+        <option value="RO">Rondônia</option>
+        <option value="RR">Roraima</option>
+        <option value="SC">Santa Catarina</option>
+        <option value="SP">São Paulo</option>
+        <option value="SE">Sergipe</option>
+        <option value="TO">Tocantins</option>
+      </select>
+      <br />
+      <input
+        class="inp"
+        required
+        class="endereco"
+        type="number"
+        id="numero"
+        placeholder="Numero"
+      /><br />
+      <input
+        class="inp"
+        required
+        class="endereco"
+        type="text"
+        id="complemento"
+        placeholder="Complemento"
+      /><br />
+      <label class="label"
+        >Digite um login: <span class="symbol-required">*</span></label
+      >
+      <input required type="email" class="inp" id="login" placeholder="Login" />
+      <br />
+      <label class="label"
+        >Digite uma senha: <span class="symbol-required">*</span></label
+      >
+      <input
+        required
+        type="password"
+        class="inp"
+        id="senha"
+        placeholder="Senha"
+      />
+      <br />
+      <label class="label"
+        >Confirme sua senha: <span class="symbol-required">*</span></label
+      >
+      <input
+        class="inp"
+        required
+        type="password"
+        id="confirmaSenha"
+        placeholder="Confirmar senha"
+      />
+      <br />
+      <button onclick="right()" class="btn">Registrar</button>
+      <script
+        type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"
+      ></script>
+      <script type="text/javascript" src="Registrar.js"></script>
+    </div>
+    <div style="margin-top:1000px"></div>
+  </body>
+</html>

@@ -1,0 +1,41 @@
+-> Palavras chave escolhidas;
+-> O design de forma geral, incluindo cores;
+-> títulos formatados conforme instruído na aula (70 caracteres);
+-> tags, categorias e imagens formatadas para semântica da web (com hífen -);
+
+PRAÇA E PROMOÇÃO
+
+COMEÇA AQUI -------------------------------
+
+Infelizmente não encontrei um site tão horroroso que iria me divertir enquanto descrevia suas imperfeições, mas, farei o melhor com o que eu tenho. Esta é uma publicação de um site de noticias sobre esporte com o nome de "Redes Esportivas": https://www.redeesportiva.com.br/esporte-clube-pelotas/pelotas-realiza-ultimo-treino-antes-da-partida-contra-o-marcilio-dias/
+NOTA: encontrei outras publicações, mas não de sites especializados na mesma praça que a minha, então não os considerei.
+
+Analisamos aqui:
+
+1. Layout, e se ele está agradável de olhar e de navegar;
+2. Palavras chave, tanto no texto em si quanto nas imagens e no resto do site no geral;
+3. Títulos formatados com 70 caracteres;
+4. Tags, categorias e imagens formatadas para semântica da web (com hifen -).
+
+1. Layout
+
+I. A barra de navegação no topo da tela não costuma seguir o usuário enquanto ele lê um post, pois isso atrapalha durante a leitura;
+II. Há um texto que acredito que seja do HTML da página: "[wp_bannerize group=”banner_sidebar_post” limit=”1″]" flutuando no canto direito;
+III. A resolução da imagem está ruim (441px x 813px para ser mais exato) isso não é de todo ruim, mas com uma resolução maior ficaria mais confortável de ler em telas full HD (1080p);
+IV. No cabeçalho o espaçamento das colunas está um pouco desconfortável, pois quando eu coloco o mouse em cima ele não muda de cor, como normalmente acontece em cabeçalhos;
+V. O texto podia ocupar mais a tela e trabalhar melhor o espaço. Está muito centralizado (em meu monitor 1080p, no monitor do meu notebook do tamanho certo);
+V. Apesar da cor azul no fundo do botão que abre o menu da barra de navegação, o responsivo do site funciona muito bem (a responsividade ajuda no ranqueeamento na hora da busca do usuário);
+
+2 e 3. Palavras chave e título formatado com 70 caracteres
+
+I. Por falta de um texto descritivo com as informações necessárias para descrever o que existe na imagem da tabela (o que, por questão de semântica, seria muito mais proveitoso para a promoção do site);
+II. O nome dos times não são sitados no texto, nem há subtitulos ou uma ou outra palavra em negrito para destacar.
+III. O título da postagem em si está com exatos 70 caracteres, então, créditos por isso!
+
+4. Tags, categorias e imagens formatas
+
+I. Nesse post há duas imagens, ambas se chamam: "WhatsApp-Image-2020-11-27-at-10.35.57.jpeg" e "tabela-nov.png", não seguindo o padrão da web com hífen (-).
+II. Não há categorias, infelizmente. No Wordpress ele te dá a opção de colocar as categorias, ajuda bastante na navegação do usuário e no filtro dos tópicos que o usuário vai querer ver.
+III. Também não há tags ou algo que sintetize o texto para sabermos o que esperar do texto, mas, os títulos de modo geral estão bem descritivos, então talvez não haja necessidade de tags.
+
+Conclusão: Como eu disse, o site não é ruim, na verdade esse post que estou analisando é de hoje (27/11/2020), o que significa que o site é de fato ativo e provavelmente gera alguma renda para as pessoas que trabalham nele.

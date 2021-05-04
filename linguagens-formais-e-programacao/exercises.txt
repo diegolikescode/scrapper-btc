@@ -71,6 +71,14 @@ S -> aSBC -> aaSBCBC -> aaaBCBCBC -> aaabCBCBC -> aaabBCCBC -> aaabbCCBC -> aaab
 5.b.
 S -> T -> vazio
 S -> aAS -> aAaAS -> aAaAbB -> aaAAbB -> aaAbAB -> aabAAB
-S -> 
+S -> bBS -> bBaAS -> bBaAaAT -> baBAaA -> baBaAA -> bbaBAA
+S -> bBS -> bBbBS -> bBbBaAT -> bBbBaA -> bBbaBA -> bbBaBA -> bbaBBA
 
 6 (DESCONSIDERAR)
+
+7.
+S -> S0^N | S1^N | vazio
+{N^i; i >= 0; N++ (a cada iteracao)}
+
+8.
+S -> 0S | 1S | ... | 9S | S0 | S1 | ... | S9

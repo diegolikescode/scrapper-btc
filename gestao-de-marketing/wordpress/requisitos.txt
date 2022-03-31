@@ -1,4 +1,0 @@
--> Palavras chave escolhidas;
--> O design de forma geral, incluindo cores;
--> títulos formatados conforme instruído na aula (70 caracteres);
--> tags, categorias e imagens formatadas para semântica da web (com hífen -);

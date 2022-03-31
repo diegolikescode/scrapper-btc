@@ -1,8 +1,0 @@
-10 leds
-01 buzzer
-01 botão
-01 capacitor
-alguns jumpers
-
-Na hora que eu aumentar o "volume" apertando o botão os leds se acendem e o buzzer aumenta o volume a cada 10%. Ex: 10% = 1 led e volume minimo; 100% = 10 leds e volume maximo.
-Usar PWM com um botão para ativar os leds

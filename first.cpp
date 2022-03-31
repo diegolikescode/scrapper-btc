@@ -1,7 +1,11 @@
 #include <iostream>
+#include "math.h"
 
 int main() {
-  using namespace std;
-  cout << "yes, indeed" << endl;
+  int x, y;
+  std::cin >> x >> y;
+
+  int res = sum(x, y);
+  std::cout << res << std::endl;
   return 0;
 }

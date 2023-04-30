@@ -6,6 +6,7 @@ import pathlib
 from bs4 import BeautifulSoup as bs
 from bs4.element import Tag
 import datetime
+from smtplib import SMTP
 
 # class=tbody (lista de compras)
 # class=text-success (qnt de BTC compra)
@@ -47,10 +48,22 @@ for tr in all_tr:
         pass
 
 for idx in range(len(all_tr)):
-	# print('DATE:', all_dates[idx], ' | ', 'VALUE:', all_values[idx])
 	new_str_value = str(all_values[idx].encode('utf-8'))
-	print(new_str_value[2:len(new_str_value) - 1])
-	print('FUCK YEAH')
-	# print(all_values[idx])
+	split_new_str = new_str_value[2:len(new_str_value) - 1]
+	print(idx, ' DATE:', all_dates[idx], ' | ', 'VALUE:', all_values[idx])
+
+
+def smtp_builder():
+	smt = SMTP('smtp.gmail.com', 587)
+	smt.ehlo()
+	smt.starttls()
+	smt.login('diegoprestesdesousa@gmail.com', 'ujhhzunnuftnxmjv')
+	return smt
+
+
+smt = smtp_builder()
+smt.sendmail('diegoprestesdesousa@gmail.com', 'diegosousaflo@hotmail.com', 'baby drummer')
+
+
 
 driver.quit()

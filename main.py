@@ -1,19 +1,26 @@
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
+from selenium.webdriver.chrome.service import Service
+from webdriver_manager.chrome import ChromeDriverManager
 import pandas as pd
 import pathlib
 from bs4 import BeautifulSoup as bs
 from bs4.element import Tag
 import datetime
 from smtplib import SMTP
+from email.message import EmailMessage
+from email.mime.multipart import MIMEMultipart
+from email.mime.text import MIMEText
+from pyvirtualdisplay import Display
 
-# class=tbody (lista de compras)
-# class=text-success (qnt de BTC compra)
-# class=utc hidden-phone (data BTC compra)
+display = Display(visible=0, size=(800, 600))
+display.start()
 
 driver_path = str(pathlib.Path(__file__).parent.resolve()) + '/chromedriver'
-driver = webdriver.Chrome(driver_path)
+driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
+# driver = webdriver.Chrome(driver_path)
+
 driver.get(
     'https://bitinfocharts.com/bitcoin/address/bc1qm34lsc65zpw79lxes69zkqmk6ee3ewf0j77s3h')
 
@@ -47,11 +54,53 @@ for tr in all_tr:
         print('EXCEPT!', type(ex).__name__, ex.args)
         pass
 
+def html_more_than(datetime, custom_msg, report):
+	email_html = f'''
+	<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>report BTC</title>
+
+		<style>
+			*,
+			body {{
+				background-color: #010008;
+				color: white;
+			}}
+			li {{
+				line-height: 140%;
+				font-size: large;
+			}}
+		</style>
+	</head>
+
+	<body>
+		<h1>HOJE {datetime}</h1>
+		<strong>Foram trocados mais de 1000BTC no dia de hoje</strong>
+		<p>segue o relatório completo das ultimas 300 transações:</p>
+		<ul>
+			{report}
+		</ul>
+	</body>
+
+	</html>
+	'''
+	return email_html
+
+
+today = str(datetime.datetime.now()).split(' ')[0]
+
+full_html_report = ''
 for idx in range(len(all_tr)):
 	new_str_value = str(all_values[idx].encode('utf-8'))
 	split_new_str = new_str_value[2:len(new_str_value) - 1]
-	print(idx, ' DATE:', all_dates[idx], ' | ', 'VALUE:', all_values[idx])
+	# print(idx, ' DATE:', all_dates[idx], ' | ', 'VALUE:', all_values[idx])
 
+
+
+	full_html_report += f'<li>data/hora: {all_dates[idx]} | valor: {all_values[idx]}</li>'
 
 def smtp_builder():
 	smt = SMTP('smtp.gmail.com', 587)
@@ -61,9 +110,23 @@ def smtp_builder():
 	return smt
 
 
-smt = smtp_builder()
-smt.sendmail('diegoprestesdesousa@gmail.com', 'diegosousaflo@hotmail.com', 'baby drummer')
+def email_msg_builder(subject: str, msg_type: str, sender: str, receiver: str):
+	msg = MIMEMultipart('alternative')
+	msg['Subject'] = subject
+	msg['From'] = sender
+	msg['To'] = receiver
+	email_msg = MIMEText(html_more_than('', '', full_html_report), 'html') # work??
+	msg.attach(email_msg)
+
+	return msg
+
+# sender = 'diegoprestesdesousa@gmail.com'
+# receiver = 'diegosousaflo@hotmail.com'
+# smt = smtp_builder()
+# my_msg = email_msg_builder('impressive, really nice', 'nice type', sender, receiver)
+# smt.sendmail(sender, receiver, my_msg.as_string())
 
 
-
+# smt.quit()
 driver.quit()
+display.stop()

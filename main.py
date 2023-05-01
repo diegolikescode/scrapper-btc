@@ -8,6 +8,7 @@ import pathlib
 from bs4 import BeautifulSoup as bs
 from bs4.element import Tag
 import datetime
+import time
 from smtplib import SMTP
 from email.message import EmailMessage
 from email.mime.multipart import MIMEMultipart
@@ -89,16 +90,23 @@ def html_more_than(datetime, custom_msg, report):
 	'''
 	return email_html
 
+#
+#
 
 today = str(datetime.datetime.now()).split(' ')[0]
 
 full_html_report = ''
+transactions_by_day = {}
 for idx in range(len(all_tr)):
 	new_str_value = str(all_values[idx].encode('utf-8'))
 	split_new_str = new_str_value[2:len(new_str_value) - 1]
-	# print(idx, ' DATE:', all_dates[idx], ' | ', 'VALUE:', all_values[idx])
+	print(idx, ' DATE:', all_dates[idx], ' | ', 'VALUE:', all_values[idx].replace('+', ''))
+	# print(float(all_values[idx].replace('+', '').replace(',', '')))
 
-
+	# agrupar as tranações por dia
+	# somar crédito e débito de cada dia no total
+	# if transactions_by_day[all_dates[idx]]
+	print(time.strptime(all_dates[idx], '%Y-%m-%d %H:%M:%S'))
 
 	full_html_report += f'<li>data/hora: {all_dates[idx]} | valor: {all_values[idx]}</li>'
 
@@ -107,6 +115,7 @@ def smtp_builder():
 	smt.ehlo()
 	smt.starttls()
 	smt.login('diegoprestesdesousa@gmail.com', 'ujhhzunnuftnxmjv')
+
 	return smt
 
 
@@ -115,7 +124,7 @@ def email_msg_builder(subject: str, msg_type: str, sender: str, receiver: str):
 	msg['Subject'] = subject
 	msg['From'] = sender
 	msg['To'] = receiver
-	email_msg = MIMEText(html_more_than('', '', full_html_report), 'html') # work??
+	email_msg = MIMEText(html_more_than('', '', full_html_report), 'html')
 	msg.attach(email_msg)
 
 	return msg

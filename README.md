@@ -11,7 +11,6 @@
 - [x] inicializar configuração de display e driver
 - [x] efetuar scrapping com beaultifulsoup4
 - [x] agregação de dados inicial para o agregador principal
-- [ ] rodar agregador principal com base nas regras de negócio
+- [x] rodar agregador principal com base nas regras de negócio
 - [ ] decidir se irá enviar o email ou não
-- [ ] se sim, enviar o email e dormir por uma meia-hora
 - [ ] se não, não enviar o email e dormir por 5 minutos

@@ -1,4 +1,4 @@
-def html_more_than(date_report, custom_msg, report):
+def html_more_than(selled, bought, report):
     email_html = f'''
 	<html>
 	<head>
@@ -20,9 +20,9 @@ def html_more_than(date_report, custom_msg, report):
 	</head>
 
 	<body>
-		<h1>HOJE {date_report}</h1>
-		<strong>Foram trocados mais de 1000BTC no dia de hoje</strong>
-		<p>segue o relatório completo das ultimas 300 transações:</p>
+		<h1>AVISO DA CARTEIRA DE BITCOIN</h1>
+		<strong>Foi vendido {selled} e comprado {bought} BTC nos ultimos 30 minutos</strong>
+		<p>segue o relatório completo das ultimas transações:</p>
 		<ul>
 			{report}
 		</ul>

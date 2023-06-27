@@ -2,7 +2,8 @@ from datetime import datetime
 from datetime import timedelta
 import time
 
-def aggregate(all_dates, all_values, rows_qnt) -> tuple [dict, bool]:
+
+def aggregate(all_dates, all_values, rows_qnt) -> tuple[dict, bool]:
     full_html_report = ''
     transactions_grouped = {}
     limit_to_get = datetime.now() - timedelta(minutes=30)
@@ -32,7 +33,10 @@ def aggregate(all_dates, all_values, rows_qnt) -> tuple [dict, bool]:
         transactions_grouped['credit'] = 0
 
     should_send_email = False
-    if transactions_grouped['credit'] >= 1000 or transactions_grouped['debit']:
+
+    debit = transactions_grouped['debit']
+    transactions_grouped['debit'] = debit if debit > 0 else debit * -1
+    if transactions_grouped['credit'] >= 1000 or transactions_grouped['debit'] >= 1000:
         should_send_email = True
 
     report_dict = {

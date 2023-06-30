@@ -36,4 +36,10 @@ def send_email(report_dict):
         subject='relatório BTC', report_dict=report_dict, sender=sender, receiver=receiver)
     smt.sendmail(sender, receiver, my_msg.as_string())
 
+    receiver_daniel='alexdprestes@gmail.com'
+    my_msg_daniel = email_msg_builder(
+            subject='relatório BTC', report_dict=report_dict, sender=sender, receiver=receiver_daniel)
+    smt.sendmail(sender, receiver_daniel, my_msg_daniel.as_string())
+
+
     smt.quit()

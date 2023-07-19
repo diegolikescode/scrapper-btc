@@ -1,5 +1,7 @@
 # SCRAPPER BTC
 
+XAMA
+
 ## TODO
 
 - [ ] quando há mais de 1000BTC em transação total;
